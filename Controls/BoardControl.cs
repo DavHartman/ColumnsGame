@@ -162,9 +162,9 @@ namespace ColumnsGame.Controls
             if (Board.NextColumnItem == null) 
                 return;
 
-            drawRectangle(Board.RowsCount - 2, Board.ColumnsCount + 2, Board.NextColumnItem.BottonColor);
+            drawRectangle(Board.RowsCount - 2, Board.ColumnsCount + 2, Board.NextColumnItem.TopColor);
             drawRectangle(Board.RowsCount - 3, Board.ColumnsCount + 2, Board.NextColumnItem.MiddleColor);
-            drawRectangle(Board.RowsCount - 4, Board.ColumnsCount + 2, Board.NextColumnItem.TopColor);
+            drawRectangle(Board.RowsCount - 4, Board.ColumnsCount + 2, Board.NextColumnItem.BottonColor);
         }
 
       

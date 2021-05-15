@@ -325,7 +325,7 @@ namespace ColumnsGame.Model
         /// <summary>
         /// test method for random fill board, not use :-)
         /// </summary>
-        public void FillBoard()
+        public void FillBoard_NOT_USE()
         {
             for (int row = 0; row < RowsCount - 4; row++)
             {

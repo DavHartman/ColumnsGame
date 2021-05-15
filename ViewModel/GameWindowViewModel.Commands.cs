@@ -41,9 +41,10 @@ namespace ColumnsGame.ViewModel
             SpeedGame = StartSpeed;
             Board.StartGame();
 
-            // test mode :-)
+            
+            // test mode not use :-)
             if (Keyboard.IsKeyDown(Key.LeftShift))
-                Board.FillBoard();
+                Board.FillBoard_NOT_USE();
 
             updateButtonCanExecute();
         }

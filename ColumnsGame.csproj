@@ -5,8 +5,10 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Images\columns.ico</ApplicationIcon>
-    <Description>:-)</Description>
+    <Description>ColumnsGame</Description>
     <Copyright>DH</Copyright>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
